@@ -20,6 +20,7 @@
   "homepage": "https://github.com/coding-boot-camp/miniature-eureka#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "jest": "^27.4.7"
+    "jest": "^27.4.7",
+    "uuid": "^8.3.2"
   }
 }

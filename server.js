@@ -4,8 +4,8 @@ const express = require('express');
 const { notes } = require('./db/db.json');
 const PORT = process.env.PORT || 3001;
 const app = express();
-const apiRoutes = require('./routes/apiRoutes/indexAPI');
-const htmlRoutes = require('./routes/htmlRoutes/indexHTML');
+const apiRoutes = require('./routes/apiRoute');
+const htmlRoutes = require('./routes/htmlRoute');
 
 // Middleware that makes certain files readily available and to not gate it behind a server endpoint
 app.use(express.static('public'));
